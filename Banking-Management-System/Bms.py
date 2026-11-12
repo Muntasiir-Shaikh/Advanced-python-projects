@@ -44,15 +44,15 @@ while True:
     print("2. Rahul")
     print("3. Exit")
 
-    a = input("Enter a no: ")
+    a = int(input("Enter a no: "))
 
-    if a == "1":
+    if a == 1:
         selected_account = account1
 
-    elif a == "2":
+    elif a == 2:
         selected_account = account2
 
-    elif a == "3":
+    elif a == 3:
         print("Thank you for using Banking System")
         break
 
@@ -69,27 +69,27 @@ while True:
         print("4. Account Details")
         print("5. Back")
 
-        n = input("Enter a no: ")
+        n = int(input("Enter a no: "))
 
-        if n == "1":
+        if n == 1:
             amount = int(input("Enter the deposite amount: "))
             selected_account.deposite(amount)
             break
 
-        elif n == "2":
+        elif n == 2:
             amount = int(input("Enter withdraw amount: "))
             selected_account.withdraw(amount)
             break
 
-        elif n == "3":
+        elif n == 3:
             selected_account.check_balance()
             break
 
-        elif n == "4":
+        elif n == 4:
             selected_account.account_details()
             break
 
-        elif n == "5":
+        elif n == 5:
             break
 
         else:
