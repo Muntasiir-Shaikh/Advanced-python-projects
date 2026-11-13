@@ -41,6 +41,29 @@ A demo password manager where users can:
 
 Note: This is a learning demo and does not provide secure password storage.
 
+### 5. Expense Tracker
+A simple expense tracking application where users can:
+- Add expenses
+- View all expenses
+- Calculate total expenses
+- Search expenses by category
+- Delete expenses
+
+### 6. Contact Management System
+A contact management application where users can:
+- Add contacts
+- View saved contacts
+- Search for contacts
+- Update contact details
+- Delete contacts
+
+### 7. Quiz Management System
+A simple quiz application where users can:
+- Answer quiz questions
+- Choose from multiple options
+- Check their answers
+- Calculate their final score
+
 ## Technologies Used
 
 - Python
@@ -68,6 +91,7 @@ Other project commands:
 python File-Organizer/Fo.py
 python Book-Management/Bm.py
 python Password-Management/Pm.py
+python Expense-Tracker/main.py
 ```
 
 ## About Me
